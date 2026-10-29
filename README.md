@@ -49,6 +49,7 @@ A web-based Library Management System built with **Java Servlets, JSP, JDBC, and
 
 ## 📁 Project Structure
 
+```
 library-management-system/
 ├── pom.xml
 ├── src/
@@ -65,6 +66,7 @@ library-management-system/
 │ ├── book/ # Book JSPs
 │ └── member/ # Member JSPs
 └── README.md
+```
 
 ---
 
