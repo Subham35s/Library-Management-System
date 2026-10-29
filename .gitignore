@@ -1,0 +1,54 @@
+# ========== Maven ==========
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ========== Eclipse ==========
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+*.class
+*.jar
+*.war
+
+# But keep: .checkstyle, .fbprefs if you use them
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========== IntelliJ IDEA (in case you switch) ==========
+.idea/
+*.iml
+*.iws
+out/
+
+# ========== VS Code (in case you switch) ==========
+.vscode/
+*.code-workspace
+
+# ========== OS files ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== Logs ==========
+*.log
+logs/
+
+# ========== Secrets / Environment ==========
+# If you put DB credentials in a file, never commit it
+# *.env
+# secrets.properties
+
+# ========== Tomcat (if local) ==========
+tomcat/
+apache-tomcat*/
